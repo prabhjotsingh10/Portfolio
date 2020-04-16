@@ -584,6 +584,14 @@ and (max-device-width: 667px){
         margin: 0;
     }
     
+    #skls_sctn{
+        padding-top: 9em;
+    }
+
+    #skls_div{
+        margin-top: 9.5em;
+    }
+    
     .trb_hd {
         text-align: center;
         font-size: 1.2em;
