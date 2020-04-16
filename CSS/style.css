@@ -58,7 +58,7 @@ header a{
 }
 
 .main_section{
-    background-image: url('./images/back.jpg');
+    background-image: url('../images/back.jpg');
     background-size: cover;
     min-height: 43em;
     position: relative;
