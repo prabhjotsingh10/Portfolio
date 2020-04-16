@@ -58,7 +58,7 @@ header a{
 }
 
 .main_section{
-    background-image: url('/images/back.jpg');
+    background-image: url('../images/back.jpg');
     background-size: cover;
     min-height: 43em;
     position: relative;
@@ -427,7 +427,6 @@ header a{
 /* @media (min-width: 576px) {  */
     /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
  
-/* Portrait */
  
 @media only screen
  
