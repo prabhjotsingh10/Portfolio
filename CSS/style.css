@@ -659,3 +659,246 @@ and (max-device-width: 667px){
     }
 
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+
+    .name_title{
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+    }
+
+    .navigation{
+        display: none;
+        /* width: 0; */
+    }
+
+    .navigation li a{
+        padding:0;
+    }
+
+    .menu_visible{
+  
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 2em;
+        margin-right: auto;
+    }
+
+    .menu_visible li {
+        padding-top: 0.5em;
+      
+    }
+
+    .intro{top: 6.5em;}
+    
+    .about_me_details{
+        display: block;
+    }
+
+    .about_me_div{
+        position: absolute;
+    top: 3em;
+    left: 1em;
+
+    }
+
+
+    #menu{
+        display: block;
+    }
+
+    .main_section{
+        min-width: 23em;
+        min-height: 42em;
+    }
+
+    .about_me{
+        padding-top: 8em;
+    }
+
+    .trb_hd h1{
+        text-align: left;
+    margin-left: 1em;
+
+    }
+
+   .about_me_article{
+       padding-top: 5em;
+   }
+
+   .about_me_details_2{
+       text-align: center;
+       margin-bottom: 20em;
+   }
+
+   .li{
+       margin-left: 1em;
+   }
+
+    .about_me_details{
+        display: block;
+    }
+
+    .img_my_pic{
+        margin-top: 27em;
+    }
+
+    #project2{
+        margin-top: 5em;
+        padding-top: 6em;
+    }
+
+    .img {
+        /* width: 30em; */
+        position: relative;
+        z-index: 0;
+        height: 15em;
+    }
+
+    .project{
+        display: block;
+        width: 0em;
+        text-align: center; 
+        margin-left: 1em;
+    }
+
+    .wrk_div{
+        top:1em;
+        left:1em
+    }
+
+  
+    .wrk_prnt_div{
+        width: 0em;
+        display: block;
+    }
+
+    .skls_chld_divs{display: block;}
+
+    .scl_mda{
+        display: block;
+        background-color: transparent;
+        min-width: 0;
+    }
+    .prjt_dscp
+    {
+        margin: 2em 0em;
+        width: 20em;
+    }
+
+    .skls_hd{
+        margin-top: 1em ;
+    }
+    .skls_sctn{
+        margin: 0;
+    }
+    
+    #skls_sctn{
+        padding-top: 9em;
+    }
+
+    #skls_div{
+        margin-top: 9.5em;
+    }
+    
+    .trb_hd {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 14em;
+        padding-top: 5em;
+        color: darkgreen;
+    }
+
+    .img{
+        width: 21em;
+        height: 10em;
+    }
+    
+    /* .skls_sctn{
+        margin-top: 10em;
+    } */
+
+    .skls_div
+    {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+
+    .logo{
+        padding-top: 0.5em;
+    }
+
+    .srvs_div{
+        margin: 1em;
+    }
+
+    .skls_artcle{
+        /* margin-top: 10em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    }
+
+    #project3{
+        margin-top: 15em;
+    }
+
+    #project4{
+        margin-top: 13em;
+    }
+
+    #hood{
+        margin-top: 10em;
+    }
+
+    #trbd_art{
+        /* margin-top: 9em; */
+        min-height: 40em;
+        display: block;
+    }
+
+    #chatMate{
+        margin-top: 4em;
+    }
+
+    #geeks{
+        margin-top: 7em;
+    }
+
+    #menu{
+        position: absolute;
+        top:1.5em;
+        right: 1em;
+        color: white;
+    }
+
+    .main_section{
+        min-width: 20em;
+        min-height: 42em;
+    }
+
+    .trb_hd{
+        margin-top: 19em;
+    }
+
+    .prjt_dscp{
+        width: 18em;
+    }
+
+    .img{
+        width: 18em;
+        height: 9em;
+    }
+
+    .cntct_divs h1 {
+        text-align: center;
+        margin: 1em;
+        font-size: 1.1em;
+    }
+
+
+    }
