@@ -79,13 +79,16 @@ header a{
 }
 
 .rsm_btn{
-    padding: 1.3em;
+    padding: 1.5em;
     background-color: transparent;
+    font-size: 0.45em;
+    text-decoration: none;
     color: whitesmoke;
     border-radius: 0.5em;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-
+    border: 1px solid white;
+    box-shadow: whitesmoke 1px 1px 2px;
 }
 
 .rsm_btn:hover{
@@ -212,7 +215,7 @@ header a{
 .project{
 
     min-height: 25em;
-    min-width: 25em;
+    /* min-width: 25em; */
     /* border: 1px solid lightgray; */
     border-radius: 0.5em ;
     cursor: pointer;
@@ -376,7 +379,7 @@ header a{
 .scl_mda{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    min-width: 10em;
+    /* min-width: 10em; */
     background-color: whitesmoke;
     min-height: 2em;
     font-size: 5em;
@@ -738,11 +741,12 @@ and (max-device-width: 667px){
    }
 
     .about_me_details{
+        max-height: 70em;
         display: block;
     }
 
     .img_my_pic{
-        margin-top: 27em;
+        margin-top: 5em;
     }
 
     #project2{
@@ -877,7 +881,7 @@ and (max-device-width: 667px){
     }
 
     .main_section{
-        min-width: 20em;
+        min-width: 21em;
         min-height: 42em;
     }
 
@@ -901,4 +905,122 @@ and (max-device-width: 667px){
     }
 
 
+    }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        
+        .img{
+            width:46em;
+        }
+
+        .navigation li a{
+            padding: 0em 1em;
+        }
+
+        .project{
+            min-width: 0;
+            min-height: 0;
+        }
+
+        .project {
+           
+            border-radius: 0.5em;
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+            position: relative;
+            display: inline-block;
+            width: 80em;
+            grid-gap: 1.5em;
+            margin-left: 1em;
+            padding-bottom: 0.5em;
+        }
+
+        .wrk_prnt_div {
+            margin: auto;
+            display: block;
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 80em;
+            width: 50em;
+            min-height: 20em;
+            grid-gap: 10em;
+            margin-top: 1em;
+        }
+
+        .trb_hd{
+            margin-top: 4em;
+        }
+
+        .trb_hd h1{
+            margin-bottom: 5em;
+        }
+
+        .prjt_dscp{
+            margin-top:3em;
+            width: 46em;
+        }
+
+        .about_me_details{
+                position: absolute;
+                /* margin: auto; */
+                display: block;
+                grid-template-columns: 0.4fr 0.6fr;
+                max-width: 80em;
+                min-height: 20em;
+                margin-top: 9em;
+        }
+
+        .about_me_details_2{
+            margin: 1em;
+        }
+
+        .skls_sctn{
+            margin-top: 9em;
+        }
+
+        .skls_chld_divs{
+            display: block;
+         
+        }
+
+        .scl_mda{
+            display: grid;
+             grid-template-columns: 1fr 1fr 1fr;
+             /* min-width: 7em; */
+             background-color: whitesmoke;
+             min-height: 2em;
+             font-size: 5em;
+             text-align: center;
+             align-items: center;
+            }
+        
+
+        #project_dsp_4{
+            margin-top: 0em;
+        }
+
+        #project_dsp_1{
+            min-width: auto;
+        }
+
+        #cntct_sctn{
+            margin-top: 2em;
+        }
+    }
+
+    @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+
+        .img
+        {
+            width: 62em;
+            /* margin-x: 10em; */
+        }
+
+        .project{
+            margin-top: 10em;
+        }
+
+        .prjt_dscp{
+            width: 62em;
+        }
+        
     }
